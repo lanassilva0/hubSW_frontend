@@ -20,7 +20,7 @@ const logout = () => {
 
 <template>
   <div>
-    <!-- <template v-if="isAuthenticated">
+    <template v-if="isAuthenticated">
       <v-app id="inspire">
         <div class="app-container"> 
           <toolbar @toggleNavigationBar="drawer = !drawer"/>
@@ -40,7 +40,7 @@ const logout = () => {
           <router-view></router-view>
         </keep-alive>
       </transition>
-    </template> -->
+    </template>
 
   </div>
 </template>
