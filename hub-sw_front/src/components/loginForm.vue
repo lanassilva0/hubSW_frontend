@@ -19,31 +19,12 @@ const passwordRules = [
 ]
 
 const form = ref(null)
-const router = useRouter()
-const store = useStore()
 
 async function handleLogin() {
-  if (form.value && form.value.validate()) {
-    // loading.value = true
-    // try {
-    //   await store.dispatch('auth/login', {
-    //     email: email.value,
-    //     password: password.value,
-    //     rememberMe: rememberMe.value
-    //   })
-    //   showMessage('Login realizado com sucesso!', 'success')
-    //   router.push('/dashboard')
-    // } catch (error) {
-    //   showMessage(error.message || 'Erro ao fazer login', 'error')
-    // } finally {
-    //   loading.value = false
-    // } não vou fazer pelo dispatch, vou chamar o axios direto 
-  }
 }
 
 function loginWithGoogle() {
   showMessage('Login com Google clicado', 'info')
-  // Implementar lógica de login com Google
 }
 </script>
 
