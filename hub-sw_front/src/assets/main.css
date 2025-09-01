@@ -1,6 +1,9 @@
-@import './base.css';
+body {
+  font-weight: 500;
+  font-size: 15px;
+}
 
-body{
+/* body{
   margin: 0px;
   background-color: black;
   color:rgb(224,217,217)
@@ -27,4 +30,4 @@ header{
   border-radius: 15px;
   margin: 30px;
   padding: 10px;
-}
+} */
