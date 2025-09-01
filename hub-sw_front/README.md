@@ -1,19 +1,15 @@
 # hub-sw_front
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+Interface em desenvolvimento de uma aplicação de login e visualização de usuários com comunicação com API Rest e API externa.
 
 ## Project Setup
 
 ```sh
 npm install
+npm install axios
+npm install vuetify@^3.0.0-beta.0 @mdi/font sass
+npm install vue3-google-login axios
+npm install @fortawesome/fontawesome-free vue-router material-design-icons-iconfont vuex
 ```
 
 ### Compile and Hot-Reload for Development
