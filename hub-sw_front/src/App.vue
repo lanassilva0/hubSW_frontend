@@ -1,10 +1,9 @@
 <script setup>
-import Login from './components/login.vue'
+import Login from './components/loginForm.vue'
 </script>
 
 <template>
-  <header>emiolo</header>
-  <Login />
+
 </template>
 
 <style scoped>
